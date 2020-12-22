@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826733512235",
+    "project_id": "mini-quiz-3ad14",
+    "storage_bucket": "mini-quiz-3ad14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826733512235:android:317bd8fe0330635e1ccc6e",
+        "android_client_info": {
+          "package_name": "com.zabello.miniquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826733512235-uvbb6m0chssqbokdbgqm91887af59nc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD_1UmfrpjVTbUzKtuhRp_LiXNAPW3qgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826733512235-uvbb6m0chssqbokdbgqm91887af59nc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

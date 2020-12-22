@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/takeNewPicture"
+        android:title="Take pic"
+        app:showAsAction="always"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="never"
+        android:title="Clear" />
+
+    <group android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item android:id="@+id/line"
+            android:title="Line"
+            android:checked="true"/>
+        <item android:id="@+id/smoothline"
+            android:title="Smooth line"/>
+        <item android:id="@+id/rectangle"
+            android:title="Rectangle"/>
+        <item android:id="@+id/square"
+            android:title="Square"/>
+        <item android:id="@+id/circle"
+            android:title="Circle"/>
+
+        <item android:id="@+id/blur"
+            android:title="Blur"/>
+        <item android:id="@+id/eraser"
+            android:title="Eraser"/>
+    </group>
+</menu>
